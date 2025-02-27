@@ -17,7 +17,7 @@ int Populacao2;
 float AreaemKm2;
 float PIB2;
 int Numerosdepontosturisticos2;
-
+//criei as duas variaveis para as 2 cartas
 printf("Digite seu estado:\n");
 scanf("%s", Estado1);
 
@@ -46,7 +46,7 @@ printf("População:%d\n", Populacao1);
 printf("Área:%f\n", AreaemKm1);
 printf("PIB:%f\n", PIB1);
 printf("Número de Pontos Turísticos:%d\n", Numerosdepontosturisticos1);
-
+// criei a entrada e saida dos dados das cartas
 printf("Digite seu estado:\n");
 scanf("%s", Estado2);
 
@@ -75,7 +75,7 @@ printf("População:%d\n",Populacao2);
 printf("Área:%f\n", AreaemKm2);
 printf("PIB:%f\n", PIB2);
 printf("Número de Pontos Turísticos:%d", Numerosdepontosturisticos2);
-
+// copiei o que fiz na carta 1
 return 0;
 
 }

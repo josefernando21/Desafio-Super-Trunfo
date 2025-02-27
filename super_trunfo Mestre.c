@@ -17,14 +17,15 @@ int Populacao2;
 float AreaemKm2;
 float PIB2;
 int Numerosdepontosturisticos2;
-
+//criei as duas variaveis para as 2 cartas
 float Densidade0;
 float PIBPercapital0;
 float Densidade1;
 float PIBPercapital1;
 float SuperPoder0;
 float SuperPoder1;
-
+//criei as variaveis para a achar a densidade e pibpercapita
+//criei a variavel SuperPoder
 printf("Digite seu estado:\n");
 scanf("%s", Estado1);
 
@@ -53,11 +54,12 @@ printf("População:%d\n", Populacao1);
 printf("Área:%f\n", AreaemKm1);
 printf("PIB:%f\n", PIB1);
 printf("Número de Pontos Turísticos:%d\n", Numerosdepontosturisticos1);
-
+// criei a entrada e saida dos dados das cartas
 Densidade0 = Populacao1 / AreaemKm1;
 PIBPercapital0 = PIB1 / Populacao1;
 SuperPoder0 = (Populacao1 + AreaemKm1 + PIB1 + PIBPercapital0 + Densidade0);
-
+// criei a divisão da densidade e pib per capita
+//criei a formula para achar o SuperPoder
 printf("Densidade Populacional:%f\n", Densidade0);
 printf("PIB per Capital:%f\n", PIBPercapital0);
 printf("SuperPoder:%f\n", SuperPoder0);
@@ -90,7 +92,7 @@ printf("População:%d\n",Populacao2);
 printf("Área:%f\n", AreaemKm2);
 printf("PIB:%f\n", PIB2);
 printf("Número de Pontos Turísticos:%d\n", Numerosdepontosturisticos2);
-
+// copiei o que fiz na carta 1
 Densidade1 = Populacao2 / AreaemKm2;
 PIBPercapital1 = PIB2 / Populacao2;
 SuperPoder1 = (Populacao2 + AreaemKm2 + PIB2 + PIBPercapital1 + Densidade1);
@@ -98,7 +100,7 @@ SuperPoder1 = (Populacao2 + AreaemKm2 + PIB2 + PIBPercapital1 + Densidade1);
 printf("Densidade Populacional:%f\n", Densidade1);
 printf("PIB per Capital:%f\n", PIBPercapital1);
 printf("Super Poder:%f\n", SuperPoder1);
-
+// copiei o que fiz na carta 1
 printf("População:%d\n", Populacao1 > Populacao2 );
 printf("Área:%d\n", AreaemKm1 > AreaemKm2 );
 printf("PIB:%d\n", PIB1 > PIB2 );
@@ -106,6 +108,6 @@ printf("Pontos Turísticos:%d\n", Numerosdepontosturisticos1 > Numerosdepontostu
 printf("Densidade Populacional:%d\n", Densidade0 < Densidade1 );
 printf("PIB per Capita:%d\n", PIBPercapital0 > PIBPercapital1 );
 printf("Super Poder:%d\n", SuperPoder0 > SuperPoder1 );
-
+//criei a comparação de cartas
 return 0;
 }
